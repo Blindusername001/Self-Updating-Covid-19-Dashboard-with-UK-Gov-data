@@ -4,7 +4,7 @@ Building the below Tableau dashboard with data from UK government website [https
 What's different is, we're building a data pipeline which gets the latest data weekly automatically without manual intervention.
 This was done with the help of Google sheets and Google scripts.
 
-<img src="/Files_used_for_Read_Me_Doc/c19uk.gif" width="1600" height="848"/>
+<img src="/Files_used_for_Read_Me_Doc/c19uk.gif" width="1200" height="848"/>
 
 
 The outline is to use Google scripts (javascript code) and Trigger functionality in Google scripts to get latest covid data from UK Gov website into a Google sheet.
