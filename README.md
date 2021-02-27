@@ -55,4 +55,31 @@ Below is a screenshot of the trigger for my script.
 <img src="https://github.com/karthikkumar001/Live-Covid-19-Dashboard-with-UK-Gov-data/blob/main/Files_used_for_Read_Me_Doc/Google%20script%20trigger.png" width="400" height="200"/>
 
 
+# STEP 3: Building the dashboard in Tableau
+Import and relate the three datasets mentioned in Step 1 using the local authority code.
 
+## worksheet 1
+Build a worksheet to show country level data. The image below has details on building it.
+
+<img src="https://github.com/karthikkumar001/Live-Covid-19-Dashboard-with-UK-Gov-data/blob/main/Files_used_for_Read_Me_Doc/worksheet-1.png" width="400" height="200"/>
+
+##worksheet 2
+Build a worksheet showing local authority districts and cumulative, new cases in each district.
+We will be using the spatial file from geoportal.statistics.gov.uk in this worksheet.
+When building this, we have to create,
+1. 4 calculated parameters, one for each country and use each in a map layer before merging all 4 map layers
+2. A calculated parameter for Max date so that we can dynamically update the dashboard title with the date of dataset
+
+
+<img src="https://github.com/karthikkumar001/Live-Covid-19-Dashboard-with-UK-Gov-data/blob/main/Files_used_for_Read_Me_Doc/worksheet%202.png" width="400" height="200"/>
+
+
+##Worksheets 3 and 4:
+Build bar graphs for cumulative and new cases by local authority districts
+
+<img src="https://github.com/karthikkumar001/Live-Covid-19-Dashboard-with-UK-Gov-data/blob/main/Files_used_for_Read_Me_Doc/worksheet3%264.png" width="400" height="200"/>
+
+##Dashboard:
+Create the dashboard with the four worksheets and add a dynamically updating title
+
+<img src="https://github.com/karthikkumar001/Live-Covid-19-Dashboard-with-UK-Gov-data/blob/main/Files_used_for_Read_Me_Doc/dashboard.png" width="400" height="200"/>
