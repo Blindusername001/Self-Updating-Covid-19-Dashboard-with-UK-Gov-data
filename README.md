@@ -18,6 +18,9 @@ Though it sounds simple, there are a few challenges to overcome which are detail
 
 # STEP 1: Getting data from UK Gov website
 
+<img src="https://github.com/karthikkumar001/Live-Covid-19-Dashboard-with-UK-Gov-data/blob/main/Files_used_for_Read_Me_Doc/Image%20for%20first%20step.png" width="600" height="500"/>
+
+
 ## API details for getting Covid dataset
 This is our main dataset of interest. 
 We have to look into the developer's guide [https://coronavirus.data.gov.uk/details/developers-guide] to understand how a request has to be sent and how the response will be structured.
@@ -31,5 +34,9 @@ The tricky part here is to download the spatial file that matches with the local
 The latest spatial file (2020) was not apt as the covid dataset contained Buckinghamshire split into its component districts. 
 After some research I found the 2019 Spatial data [https://geoportal.statistics.gov.uk/datasets/1d78d47c87df4212b79fe2323aae8e08_0] to be the most suitable one as it has the local districts inline with the covid dataset.
 Note: THe only mismatch with 2019 spatial data is that Hackney and City of London are mentioned as separate districts whereas in the covid dataset they are combined. But because we are matching the datasets on the area code, this does not pose a threat.
+
+## Mapping data for Local AUthority to country
+Since the covid dataset we get has only the local authority districts, we need data to map the distrcits to their respective countries.
+For this, again 2019 mapping data was the suitable one. [https://geoportal.statistics.gov.uk/datasets/5b80bff593974bf8b6dbf080a6057b09_0]
 
 
