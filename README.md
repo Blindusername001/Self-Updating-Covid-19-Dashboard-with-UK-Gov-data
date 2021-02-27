@@ -1,3 +1,10 @@
 # Building a Covid 19 dashboard which updates regularly with Google sheets and Tableau
 
-Building the below Tableau dashboard with data from UK government website [https://coronavirus.data.gov.uk/details/about-data]
+Building the below Tableau dashboard with data from UK government website [https://coronavirus.data.gov.uk/details/about-data].
+What's different is, we're building a data pipeline which gets the latest data weekly automatically without manual intervention.
+This was done with the help of Google sheets and Google scripts.
+
+The outline is to use Google scripts (javascript code) and Trigger functionality in Google scripts to get latest covid data from UK Gov website into a Google sheet.
+We will use this google sheet as the source for our Tableau dashboard.
+
+Though it sounds simple, there are a few challenges to overcome which are detailed in the below setions.
