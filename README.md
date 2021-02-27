@@ -11,7 +11,7 @@ The outline is to use Google scripts (javascript code) and Trigger functionality
 We will use this google sheet as the source for our Tableau dashboard.
 
 
-<img src="/Files_used_for_Read_Me_Doc/Process%20outline.png" width="500" height="400"/>
+<img src="/Files_used_for_Read_Me_Doc/Process%20outline.png" width="600" height="500"/>
 
 
 Though it sounds simple, there are a few challenges to overcome which are detailed in the below sections.
@@ -46,7 +46,7 @@ It can be seen that the request has 'filter'and 'structure' componenet mentioned
 The javascript requests the data and saves it in a google sheet.
 Below is an exceprt of the data in google sheet.
 
-<img src="https://github.com/karthikkumar001/Live-Covid-19-Dashboard-with-UK-Gov-data/blob/main/Files_used_for_Read_Me_Doc/Google%20sheet%20data.png" width="700" height="200"/>
+<img src="https://github.com/karthikkumar001/Live-Covid-19-Dashboard-with-UK-Gov-data/blob/main/Files_used_for_Read_Me_Doc/Google%20sheet%20data.png" width="900" height="200"/>
 
 After this, we should create a Trigger for the script to run once a week and refresh this data.
 To keep the entore process clean and simple, my script clears the sheet prior to pasting new data in it. So anytime the script runs and gets a response, only the latest data will be available in the Google sheet.
@@ -61,7 +61,7 @@ Import and relate the three datasets mentioned in Step 1 using the local authori
 ## worksheet 1
 Build a worksheet to show country level data. The image below has details on building it.
 
-<img src="https://github.com/karthikkumar001/Live-Covid-19-Dashboard-with-UK-Gov-data/blob/main/Files_used_for_Read_Me_Doc/worksheet-1.png" width="400" height="200"/>
+<img src="https://github.com/karthikkumar001/Live-Covid-19-Dashboard-with-UK-Gov-data/blob/main/Files_used_for_Read_Me_Doc/worksheet-1.png" width="600" height="400"/>
 
 ## worksheet 2
 Build a worksheet showing local authority districts and cumulative, new cases in each district.
