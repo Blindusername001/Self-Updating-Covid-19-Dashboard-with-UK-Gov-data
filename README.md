@@ -16,9 +16,9 @@ We will use this google sheet as the source for our Tableau dashboard.
 
 Though it sounds simple, there are a few challenges to overcome which are detailed in the below sections.
 
-#STEP 1: Getting data from UK Gov website
+# STEP 1: Getting data from UK Gov website
 
-##API details for getting Covid dataset
+## API details for getting Covid dataset
 This is our main dataset of interest. 
 We have to look into the developer's guide [https://coronavirus.data.gov.uk/details/developers-guide] to understand how a request has to be sent and how the response will be structured.
 Below is the instructions from the website as on 27/02/2020. 'filter'and 'structure'are mandatory components of any request while 'format'and 'page'are optional.
