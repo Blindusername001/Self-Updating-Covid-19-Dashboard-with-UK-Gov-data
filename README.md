@@ -35,8 +35,24 @@ The latest spatial file (2020) was not apt as the covid dataset contained Buckin
 After some research I found the 2019 Spatial data [https://geoportal.statistics.gov.uk/datasets/1d78d47c87df4212b79fe2323aae8e08_0] to be the most suitable one as it has the local districts inline with the covid dataset.
 Note: THe only mismatch with 2019 spatial data is that Hackney and City of London are mentioned as separate districts whereas in the covid dataset they are combined. But because we are matching the datasets on the area code, this does not pose a threat.
 
-## Local AUthority to country mapping data
+## Local Authority to country mapping data
 Since the covid dataset we get has only the local authority districts, we need data to map the distrcits to their respective countries.
 For this, again 2019 mapping data was the suitable one. [https://geoportal.statistics.gov.uk/datasets/5b80bff593974bf8b6dbf080a6057b09_0]
+
+# STEP 2: Google Sheet and Google Script
+Next step is to use javascript code to request the covid data from Gov UK API and store it as a table in a Google sheet.
+The entire javascript I used can be found here [https://github.com/karthikkumar001/Live-Covid-19-Dashboard-with-UK-Gov-data/blob/main/UK%20Gov%20covid%2019%20data%20request.js]
+It can be seen that the request has 'filter'and 'structure' componenet mentioned on the UK Gov site's developer guide. 
+The javascript requests the data and saves it in a google sheet.
+Below is an exceprt of the data in google sheet.
+
+<img src="https://github.com/karthikkumar001/Live-Covid-19-Dashboard-with-UK-Gov-data/blob/main/Files_used_for_Read_Me_Doc/Google%20sheet%20data.png" width="400" height="200"/>
+
+After this, we should create a Trigger for the script to run once a week and refresh this data.
+To keep the entore process clean and simple, my script clears the sheet prior to pasting new data in it. So anytime the script runs and gets a response, only the latest data will be available in the Google sheet.
+Below is a screenshot of the trigger for my script.
+
+<img src="https://github.com/karthikkumar001/Live-Covid-19-Dashboard-with-UK-Gov-data/blob/main/Files_used_for_Read_Me_Doc/Google%20script%20trigger.png" width="400" height="200"/>
+
 
 
