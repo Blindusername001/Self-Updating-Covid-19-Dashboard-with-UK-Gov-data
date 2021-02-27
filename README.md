@@ -14,4 +14,4 @@ We will use this google sheet as the source for our Tableau dashboard.
 <img src="/Files_used_for_Read_Me_Doc/Process%20outline.png" width="600" height="500"/>
 
 
-Though it sounds simple, there are a few challenges to overcome which are detailed in the below setions.
+Though it sounds simple, there are a few challenges to overcome which are detailed in the below sections.
