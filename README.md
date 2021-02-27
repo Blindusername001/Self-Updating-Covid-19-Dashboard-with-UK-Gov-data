@@ -61,7 +61,7 @@ Import and relate the three datasets mentioned in Step 1 using the local authori
 ## worksheet 1
 Build a worksheet to show country level data. The image below has details on building it.
 
-<img src="https://github.com/karthikkumar001/Live-Covid-19-Dashboard-with-UK-Gov-data/blob/main/Files_used_for_Read_Me_Doc/worksheet-1.png" width="600" height="400"/>
+<img src="https://github.com/karthikkumar001/Live-Covid-19-Dashboard-with-UK-Gov-data/blob/main/Files_used_for_Read_Me_Doc/worksheet-1.png" width="400" height="250"/>
 
 ## worksheet 2
 Build a worksheet showing local authority districts and cumulative, new cases in each district.
