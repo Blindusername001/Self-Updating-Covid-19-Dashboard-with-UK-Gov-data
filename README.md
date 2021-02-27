@@ -18,7 +18,7 @@ Though it sounds simple, there are a few challenges to overcome which are detail
 
 # STEP 1: Getting data from UK Gov website
 
-<img src="https://github.com/karthikkumar001/Live-Covid-19-Dashboard-with-UK-Gov-data/blob/main/Files_used_for_Read_Me_Doc/Image%20for%20first%20step.png" width="600" height="400"/>
+<img src="https://github.com/karthikkumar001/Live-Covid-19-Dashboard-with-UK-Gov-data/blob/main/Files_used_for_Read_Me_Doc/Image%20for%20first%20step.png" width="400" height="200"/>
 
 
 ## API details for getting Covid dataset
