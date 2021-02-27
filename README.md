@@ -5,7 +5,7 @@ What's different is, we're building a data pipeline which gets the latest data w
 This was done with the help of Google sheets and Google scripts.
 
 ![Alt Text](https://github.com/karthikkumar001/Live-Covid-19-Dashboard-with-UK-Gov-data/blob/main/Files_used_for_Read_Me_Doc/c19uk.gif =250x250)
-
+<img src="/Files_used_for_Read_Me_Doc/c19uk.gif" width="250" height="250"/>
 
 
 The outline is to use Google scripts (javascript code) and Trigger functionality in Google scripts to get latest covid data from UK Gov website into a Google sheet.
