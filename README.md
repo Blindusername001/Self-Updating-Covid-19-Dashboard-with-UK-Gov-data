@@ -11,7 +11,7 @@ The outline is to use Google scripts (javascript code) and Trigger functionality
 We will use this google sheet as the source for our Tableau dashboard.
 
 
-<img src="/Files_used_for_Read_Me_Doc/Process%20outline.png" width="500" height="900"/>
+<img src="/Files_used_for_Read_Me_Doc/Process%20outline.png" width="500" height="750"/>
 
 
 Though it sounds simple, there are a few challenges to overcome which are detailed in the below setions.
