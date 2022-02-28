@@ -82,8 +82,8 @@ Build bar graphs for cumulative and new cases by local authority districts
 ## Dashboard:
 Create the dashboard with the four worksheets and add a dynamically updating title
 This can be interactively viewed on,
-https://public.tableau.com/shared/QG6X2K3FM?:display_count=y&:origin=viz_share_link
+https://public.tableau.com/views/UK_Covid19_Dashboard/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
 
-NOTE: THIS LINK IS NO LONGER AVAILALBE AS I WAS USING MY UNIVERSITY SUBSCRIPTION FOR TABLEAU AND HAVE CURRENTLY COMPLETED MY COURSE.
+NOTE: THIS LINK DOES NOT WORK AS EXPECTED AT TIMES, AS I WAS USING MY UNIVERSITY SUBSCRIPTION FOR TABLEAU AND HAVE CURRENTLY COMPLETED MY COURSE.
 
 <img src="https://github.com/karthikkumar001/Live-Covid-19-Dashboard-with-UK-Gov-data/blob/main/Files_used_for_Read_Me_Doc/dashboard.png" width="400" height="200"/>
